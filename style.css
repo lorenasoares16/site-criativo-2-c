@@ -1,3 +1,7 @@
+*{
+
+}
+
 cabecalho{
     background-color: black
     color: white;
@@ -13,4 +17,6 @@ cabecalho{
 
 .cabecalho_lista_iten{
    display:inline-block
+   margin: 0 16px;
+  font-size;
 }
