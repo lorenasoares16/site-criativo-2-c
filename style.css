@@ -2,11 +2,15 @@ cabecalho{
     background-color: black
     color: white;
    display:flex
-
-
-
+   justify-content :epase-around
+   alig-intems: center
+  padding: 24px;
 }
 
 .cabecalho-imagem{
     width: 20%;
+}
+
+.cabecalho_lista_iten{
+   display:inline-block
 }
