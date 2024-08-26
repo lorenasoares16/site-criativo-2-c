@@ -1,12 +1,13 @@
 *{
-
+  margin: 0;
+  padding: 0;
 }
 
 cabecalho{
     background-color: black
     color: white;
    display:flex
-   justify-content :epase-around
+   justify-content :spase-around
    alig-intems: center
   padding: 24px;
 }
@@ -18,5 +19,39 @@ cabecalho{
 .cabecalho_lista_iten{
    display:inline-block
    margin: 0 16px;
-  font-size;
+  font-size: 24px 0;
+}
+
+.ecola-imagem{
+    width: 25%;
+}
+
+.escola{
+    background-image: linear-gradient(#241414,#4eE);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.ecola-div-conteudo{
+    width: 35%;
+}
+
+.escola-titulo{
+    padding: 24px 0;
+}
+
+.estudante-imagem{
+    width: 120px;
+}
+
+.estudante-icone{
+    width: 24px;
+}
+
+.estudante-div{
+    text-align: center;
+    padding: 50px 0;
 }
